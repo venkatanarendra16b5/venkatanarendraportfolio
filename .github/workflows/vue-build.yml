@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build Vue 3 app
-        run: npm run generate
+        run: npm run build
 
       - name: Upload build output
         uses: actions/upload-artifact@v4
@@ -74,8 +74,8 @@ jobs:
         # Added a step to debug the environment and confirm the directory structure.
 
       - name: Build Vue 3 app
-        run: npm run generate
-        # Ensure the build command is correct for Nuxt 3.
+        run: npm run build
+        # Ensure the build command is correct for Vue 3.
       - name: Inspect build output
         run: ls -la .output/public
         # Ensure the correct output directory is inspected.
@@ -85,4 +85,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .output/public
-          # Updated the publish_dir to match Nuxt's default static output directory.
+          # Updated the publish_dir to match Vue's default static output directory.
