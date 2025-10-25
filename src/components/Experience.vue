@@ -156,7 +156,7 @@ h2::after {
 }
 .skill-label {
   font-weight: bold;
-  color: #42b098;
+  color: #4868ab;
   margin-right: 5px;
 }
 

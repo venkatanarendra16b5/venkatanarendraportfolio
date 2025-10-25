@@ -23,6 +23,9 @@ const skills = [
   { name: "Typescript", icon: ['fas', 'code'] }, // Example, you might find a better one
   { name: "Vue.js", icon: ['fab', 'vuejs'] },
   { name: "React.js", icon: ['fab', 'react'] },
+  { name: "Docker", icon: ['fab', 'docker'] },
+  { name: "Git", icon: ['fab', 'git'] },
+  { name: "Jira", icon: ['fab', 'jira'] },
   { name: "Nuxt", icon: ['fas', 'layer-group'] }, // Example for Nuxt
   { name: "Quasar", icon: ['fas', 'grip-horizontal'] }, // Example for Quasar
   { name: "ECharts", icon: ['fas', 'chart-bar'] }, // Example for ECharts
@@ -32,9 +35,6 @@ const skills = [
   { name: "REST APIs", icon: ['fas', 'globe'] }, // Example for APIs
   { name: "MySQL", icon: ['fas', 'database'] },
   { name: "Azure Devops", icon: ['fab', 'microsoft'] }, // Microsoft icon for Azure
-  { name: "Docker", icon: ['fab', 'docker'] },
-  { name: "Git", icon: ['fab', 'git'] },
-  { name: "Jira", icon: ['fab', 'jira'] },
   { name: "Agile Methodologies", icon: ['fas', 'users-rays'] } // Example solid icon for Agile
 ];
 

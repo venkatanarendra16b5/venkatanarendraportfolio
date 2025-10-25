@@ -42,6 +42,16 @@ import {
   faUsersRays,      // For Agile Methodologies
   faTerminal,       // You might use this for general programming/CLI
   faArrowLeft,      // left arrrow icon
+faEnvelope,
+  faPhone,
+  faShareAlt,
+  faPaperPlane,
+  faExternalLinkAlt,
+  faDownload,
+  faMapMarkerAlt,
+  faCalendarAlt,
+  faUser,
+  faMessage, // Corrected from fa-comment or fa-comments
   faLaptopCode,     // Another option for general dev
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -49,7 +59,17 @@ import {
 library.add(
   faJs, faReact, faVuejs, faNodeJs, faDocker, faGit, faJira, faMicrosoft,
   faCode, faLayerGroup, faGripHorizontal, faChartBar, faChartPie, faServer, faGlobe, faDatabase, faUsersRays,
-  faTerminal, faArrowLeft, faLaptopCode // Add any additional solid icons you import
+  faTerminal, faArrowLeft,  faEnvelope,
+  faPhone,
+  faShareAlt,
+  faPaperPlane,
+  faExternalLinkAlt,
+  faDownload,
+  faMapMarkerAlt,
+  faCalendarAlt,
+  faUser,
+  faMessage, // Corrected from fa-comment or fa-comments
+  faLaptopCode // Add any additional solid icons you import
 );
 
 /* -------------------------------------------------------------------------- */

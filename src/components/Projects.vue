@@ -70,7 +70,7 @@ const projects = [
     title: 'Micro Services Development',
     tagline: 'Aggregating data from various tools into microservices',
     client: 'Disney, SWA, Hilti, Kunnect, Brierly',
-    environment: ['Node.js', 'MySQL', 'MongoDB', 'AWS SDK', 'Socket.io'],
+    environment: ['Node.js', 'MySQL', 'AWS SDK', 'Socket.io'],
     description: `Developed 30+ microservices to aggregate data from tools like ADO, Jira, Bitbucket, GitLab, and ServiceNow, transforming and storing required data in JSON format for streamlined database management and efficient access.`,
     contributions: [
       "Integrated external APIs across multiple tools to enable seamless data interactions.",
