@@ -13,7 +13,7 @@
         <div class="contact-card animate__animated animate__fadeInUp animate__delay-0-4s">
           <font-awesome-icon :icon="['fas', 'envelope']" class="card-icon" />
           <h3>Email</h3>
-          <p><a href="mailto:venkatanarendra16b5@gmail.com" class="contact-link">venkatanarendral6b5@gmail.com</a></p>
+          <p><a href="mailto:venkatanarendra16b5@gmail.com" class="contact-link">venkatanarendra16b5@gmail.com</a></p>
         </div>
 
         <div class="contact-card animate__animated animate__fadeInUp animate__delay-0-6s">
