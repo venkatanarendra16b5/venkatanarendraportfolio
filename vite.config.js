@@ -6,5 +6,8 @@ export default defineConfig({
   server: {
     port: 5173
   },
-  base: '/venkatanarendraportfolio/'
+  base: '/venkatanarendraportfolio/', // 👈 Must match the repo name exactly
+  build: {
+    outDir: 'dist'
+  },
 })
