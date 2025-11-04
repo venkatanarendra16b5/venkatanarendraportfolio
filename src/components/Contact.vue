@@ -150,7 +150,7 @@ const submitForm = async () => {
 <style scoped>
 /* General Section Styling */
 .contact-section {
-  padding: 80px 20px;
+  padding: 80px 0px 0px 0px;
   background-color: #f8faff; /* Light background for the section */
   font-family: 'Inter', sans-serif; /* Example font */
   color: #333;
@@ -169,7 +169,15 @@ const submitForm = async () => {
   margin-bottom: 20px;
   font-weight: 700;
 }
-
+h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #007bff; /* Primary color for underline */
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
 .section-description {
   font-size: 1.15em;
   color: #555;

@@ -53,6 +53,11 @@ faEnvelope,
   faUser,
   faMessage, // Corrected from fa-comment or fa-comments
   faLaptopCode,     // Another option for general dev
+  faShieldAlt,
+  faChartLine,
+  faCubes,
+  faUserShield,
+  faLightbulb
 } from '@fortawesome/free-solid-svg-icons';
 
 // Add the imported icons to the library
@@ -69,7 +74,12 @@ library.add(
   faCalendarAlt,
   faUser,
   faMessage, // Corrected from fa-comment or fa-comments
-  faLaptopCode // Add any additional solid icons you import
+  faLaptopCode, // Add any additional solid icons you import
+  faShieldAlt,
+  faChartLine,
+  faCubes,
+  faUserShield,
+  faLightbulb
 );
 
 /* -------------------------------------------------------------------------- */

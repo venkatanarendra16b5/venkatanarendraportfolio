@@ -60,7 +60,15 @@ h2 {
   font-size: 2.5em; /* Make heading more prominent */
   color: #333; /* Darker color for heading */
 }
-
+h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #007bff; /* Primary color for underline */
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
 .grid {
   display: flex;
   flex-wrap: wrap;
