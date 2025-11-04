@@ -26,6 +26,7 @@ const navLinks = [
   { id: 'skills', text: 'Skills', href: '#skills' },
   { id: 'projects', text: 'Projects', href: '#projects' },
   { id: 'experience', text: 'Experience', href: '#experience' },
+  {id: 'testimonials', text: 'Testimonials', href: '#testimonials' },
   { id: 'contact', text: 'Contact', href: '#contact' },
 ];
 

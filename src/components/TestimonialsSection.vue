@@ -35,30 +35,30 @@ import { Pagination, Autoplay, Navigation } from "swiper/modules"
 const modules = [Pagination, Autoplay, Navigation];
 
 const testimonials = [
-    {
-        name: "Padmini Shilpa K",
-        role: "Project Manager, Qentelli",
-        feedback: "Taking a moment to recognize Narendra for his exceptional contributions to our front-end services. His unwavering commitment and tireless hard work have not only driven our projects forward but have also inspired those around him. Thank you for your outstanding efforts Narendra.",
-        image: "https://i.pravatar.cc/100?img=1"
-    },
-    {
-        name: "Naveen Kumar K",
-        role: "Team Lead, Qentelli",
-        feedback: "Nallabothula Venkata Narendra Your excellence and brilliance have always made for a stunning performance at work. Thanks for bringing so much permanence to our company.",
-        image: "https://i.pravatar.cc/100?img=2"
-    },
-    {
-        name: "Rajendar G",
-        role: "Team Lead, Qentelli",
-        feedback: "Nallabothula Venkata Narendra Recognized for consistently exceeding expectations and delivering outstanding contributions, truly going above and beyond.",
-        image: "https://i.pravatar.cc/100?img=3"
-    },
-    {
-        name: "Kanishka K",
-        role: "Team Lead, Qentelli",
-        feedback: "Nallabothula Venkata Narendra You have demonstrated exceptional skill by finding unusual and creative solutions to problems.",
-        image: "https://i.pravatar.cc/100?img=3"
-    },
+  {
+    name: "Padmini Shilpa K",
+    role: "Project Manager, Qentelli",
+    feedback:
+      "Taking a moment to appreciate Narendra for his exceptional contributions to our front-end projects. His dedication, consistency, and hard work have not only driven our initiatives forward but also inspired the team around him. Thank you for your outstanding efforts, Narendra!",
+  },
+  {
+    name: "Naveen Kumar K",
+    role: "Team Lead, Qentelli",
+    feedback:
+      "Nallabothula Venkata Narendra’s excellence and professionalism have consistently stood out. His brilliance and commitment have played a key role in delivering high-quality outcomes. Thanks for bringing such lasting value to our team and organization.",
+  },
+  {
+    name: "Rajendar G",
+    role: "Team Lead, Qentelli",
+    feedback:
+      "Narendra has been consistently recognized for exceeding expectations and delivering exceptional results. His positive attitude, reliability, and passion for excellence truly make him a standout performer.",
+  },
+  {
+    name: "Kanishka K",
+    role: "Senior Software Engineer, Qentelli",
+    feedback:
+      "Narendra has demonstrated remarkable creativity and problem-solving skills, consistently finding innovative and effective solutions. His technical expertise and collaborative spirit make him a great asset to any team.",
+  },
 ]
 const getInitials = (name) => {
   return name

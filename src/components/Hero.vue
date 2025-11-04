@@ -9,7 +9,7 @@
         <h3 class="typed" ref="typedRef">&nbsp;</h3>
          <p class="about-text">
           I enjoy translating complex problems into elegant, maintainable solutions — whether it’s crafting
-          reusable UI components, designing secure REST APIs, or integrating <strong>DevOps pipelines</strong> with Azure.
+          reusable UI components, designing secure REST APIs, or integrating DevOps pipelines with Azure.
           My recent projects focus on real-time dashboards, data visualization and automation.
         </p>
 
