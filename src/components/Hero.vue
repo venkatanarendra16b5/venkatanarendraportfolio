@@ -45,12 +45,17 @@ const rightRef = ref(null)
 onMounted(() => {
   // typing
   new Typed(typedRef.value, {
-    strings: ['Full Stack Developer', 'MEVN + MERN + Azure Devops'],
+    strings: ['Full Stack Developer', 'MEVN + MERN + Azure DevOps'],
     typeSpeed: 60,
     backSpeed: 40,
     loop: true
   })
-
+   setTimeout(() => {
+    const cursorEl = document.querySelector('.typed-cursor');
+    if (cursorEl) {
+      cursorEl.classList.add('typed-cursor-visible');
+    }
+  }, 500);
   // entry animations
   gsap.from(leftRef.value, { opacity: 0, x: -60, duration: 0.9 })
   gsap.from(rightRef.value, { opacity: 0, x: 60, duration: 0.9, delay: 0.2 })
@@ -83,13 +88,26 @@ onMounted(() => {
 }
 .socials { margin-top: 12px; color: #475569; font-size: 14px; }
 .typed {
-  display: inline-block;
   font-size: 1.3rem;
   font-weight: 600;
   color: #222;
   margin: 2px 0;
   line-height: 1.2;
   min-height: 28px;
+}
+:deep(.typed-cursor),
+.typed-cursor-visible {
+  display: none;
+  font-weight: 600;
+  color: #194e03;
+  animation: blink 0.8s infinite;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
 }
 .outline { 
   border: 2px solid #efeee7; 
