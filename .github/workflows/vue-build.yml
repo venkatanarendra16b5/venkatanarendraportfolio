@@ -26,7 +26,9 @@ jobs:
         run: npm install
 
       - name: Build Vue 3 App
-        run: npm run build
+        run: |
+          echo "VITE_BASE_URL=/${{ github.event.repository.name }}/" >> .env.production
+          npm run build
 
       - name: Inspect dist folder
         run: ls -la dist
@@ -55,7 +57,9 @@ jobs:
         run: npm install
 
       - name: Build Vue 3 App
-        run: npm run build
+        run: |
+          echo "VITE_BASE_URL=/${{ github.event.repository.name }}/" >> .env.production
+          npm run build
 
       - name: Inspect build output
         run: ls -la dist
