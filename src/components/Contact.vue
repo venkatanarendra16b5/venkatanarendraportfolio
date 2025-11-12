@@ -37,7 +37,7 @@
           <font-awesome-icon :icon="['fas', 'download']" class="card-icon" />
           <h3>Resume</h3>
           <p>
-            <a href="/resume.pdf" download class="contact-link button-link">
+            <a @click="viewAndDownloadResume" href="javascript:void(0)" download class="contact-link button-link">
               <font-awesome-icon :icon="['fas', 'download']" /> Download
             </a>
           </p>
@@ -106,7 +106,22 @@ const form = ref({
   email: '',
   message: '',
 });
+const viewAndDownloadResume = () => {
+  // ✅ Use import.meta.env to access environment variables in Vite
+  const baseUrl = import.meta.env.VITE_BASE_URL || '/';
+  const resumeUrl = `${baseUrl}resume.pdf`;
 
+  // 1️⃣ Open the resume in a new tab
+  window.open(resumeUrl, '_blank');
+
+  // 2️⃣ Trigger automatic download
+  const link = document.createElement('a');
+  link.href = resumeUrl;
+  link.setAttribute('download', 'N_Venkata_Narendra_Resume.pdf');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 // Function to handle form submission
 const submitForm = async () => {
   // In a real application, you would send this data to a backend server

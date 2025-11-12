@@ -20,7 +20,7 @@
         <div class="cta">
           <a class="btn primary" href="mailto:venkatanarendra16b5@gmail.com">Hire Me</a>
           <a class="btn outline" href="#projects">View Projects</a>
-          <a href="/resume.pdf" download class="btn btn-outline">
+          <a @click="viewAndDownloadResume" class="btn btn-outline" href="javascript:void(0)">
             <i class="mdi mdi-download"></i> Download Resume
           </a>
         </div>
@@ -41,6 +41,22 @@ import { gsap } from 'gsap'
 const typedRef = ref(null)
 const leftRef = ref(null)
 const rightRef = ref(null)
+const viewAndDownloadResume = () => {
+  // ✅ Use import.meta.env to access environment variables in Vite
+  const baseUrl = import.meta.env.VITE_BASE_URL || '/';
+  const resumeUrl = `${baseUrl}resume.pdf`;
+
+  // 1️⃣ Open the resume in a new tab
+  window.open(resumeUrl, '_blank');
+
+  // 2️⃣ Trigger automatic download
+  const link = document.createElement('a');
+  link.href = resumeUrl;
+  link.setAttribute('download', 'N_Venkata_Narendra_Resume.pdf');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
 onMounted(() => {
   // typing
