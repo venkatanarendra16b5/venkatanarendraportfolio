@@ -21,10 +21,10 @@ import { gsap } from 'gsap'
 const skills = [
   { name: "Javascript", icon: ['fab', 'js'] },
   { name: "Typescript", icon: ['fas', 'code'] }, // Example, you might find a better one
-  {name:"Java", icon: ['fab', 'java']},
+  {name:"Java", icon: ['fas', 'java']},
   { name: "Vue.js", icon: ['fab', 'vuejs'] },
   { name: "React.js", icon: ['fab', 'react'] },
-  {name: "Angular", icon:['fab','angular']},
+  {name: "Angular", icon:['fas','angular']},
   { name: "Docker", icon: ['fab', 'docker'] },
   { name: "Git", icon: ['fab', 'git'] },
   { name: "Jira", icon: ['fab', 'jira'] },
@@ -34,7 +34,7 @@ const skills = [
   { name: "Amcharts", icon: ['fas', 'chart-pie'] }, // Example for Amcharts
   { name: "Node.js", icon: ['fab', 'node-js'] },
   { name: "Express", icon: ['fas', 'server'] }, // Example for Express
-  {name: "SpringBoot", icon:['fas', 'leaf']},
+  {name: "SpringBoot", icon:['fab', 'leaf']},
   { name: "REST APIs", icon: ['fas', 'globe'] }, // Example for APIs
   { name: "MySQL", icon: ['fas', 'database'] },
   { name: "Azure Devops", icon: ['fab', 'microsoft'] }, // Microsoft icon for Azure
