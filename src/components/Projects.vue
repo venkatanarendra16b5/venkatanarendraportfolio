@@ -37,7 +37,7 @@ const projects = [
   {
     id:'ikunnect',
     title:'iKunnect',
-    tagline:'',
+    tagline:'Smart Contact Center Platform for Real-Time Communication & Analytics',
     client: 'Kunnect',
     environment:['TypeScript','Angular','Bootstrap','vite'],
     description: 'iKunnect is a cloud-based contact center solution designed to streamline inbound/outbound call management, campaign handling, and real-time analytics for BPOs, customer service teams, and sales-driven organizations. It provides both agent and admin web portals, integrating telephony with robust backend systems and multilingual support',
