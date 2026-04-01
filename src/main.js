@@ -58,7 +58,7 @@ faEnvelope,
   faCubes,
   faUserShield,
   faLightbulb,
-  faHeadset
+  faHeadset,
 } from '@fortawesome/free-solid-svg-icons';
 
 // Add the imported icons to the library

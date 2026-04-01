@@ -61,7 +61,7 @@ const viewAndDownloadResume = () => {
 onMounted(() => {
   // typing
   new Typed(typedRef.value, {
-    strings: ['Full Stack Developer', 'MEVN + MERN + Azure DevOps'],
+    strings: ['Full Stack Developer', 'MEVN + MERN + MEAN + Azure DevOps'],
     typeSpeed: 60,
     backSpeed: 40,
     loop: true
