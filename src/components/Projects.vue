@@ -35,6 +35,22 @@ const showProjectInfo = ref(false);
 const selectedProjectId = ref(null);
 const projects = [
   {
+    id:'ikunnect',
+    title:'iKunnect',
+    tagline:'',
+    client: 'Kunnect',
+    environment:['TypeScript','Angular','Bootstrap','vite'],
+    description: 'iKunnect is a cloud-based contact center solution designed to streamline inbound/outbound call management, campaign handling, and real-time analytics for BPOs, customer service teams, and sales-driven organizations. It provides both agent and admin web portals, integrating telephony with robust backend systems and multilingual support',
+    contributions: [
+      "Developed responsive agent and admin dashboards using Angular for call management, campaign handling, and real-time analytics.",
+      "Built reusable and modular UI components, improving scalability and maintainability of the application.",
+      "Integrated REST APIs for inbound/outbound call workflows, campaign management, and reporting features.",
+      "Implemented real-time updates using WebSockets/Socket.io for live call tracking and analytics monitoring.",
+      "Optimized application performance through lazy loading, efficient change detection, and reduced API calls."
+    ],
+    cardIcon: ['fas','headset']
+  },
+  {
     id: 'q-insurance',
     title: 'Q-Insurance',
     tagline: 'Comprehensive insurance management system (Admin + UI)',

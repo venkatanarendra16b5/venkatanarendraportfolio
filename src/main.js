@@ -57,7 +57,8 @@ faEnvelope,
   faChartLine,
   faCubes,
   faUserShield,
-  faLightbulb
+  faLightbulb,
+  faHeadset
 } from '@fortawesome/free-solid-svg-icons';
 
 // Add the imported icons to the library
@@ -79,7 +80,8 @@ library.add(
   faChartLine,
   faCubes,
   faUserShield,
-  faLightbulb
+  faLightbulb,
+  faHeadset
 );
 
 /* -------------------------------------------------------------------------- */
