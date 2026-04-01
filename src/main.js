@@ -25,6 +25,8 @@ import {
   faDocker,
   faGit,
   faJira,
+  faAngular,
+  faJava,
   faMicrosoft, // Used for Azure Devops
 } from '@fortawesome/free-brands-svg-icons';
 
@@ -63,7 +65,7 @@ faEnvelope,
 
 // Add the imported icons to the library
 library.add(
-  faJs, faReact, faVuejs, faNodeJs, faDocker, faGit, faJira, faMicrosoft,
+  faAngular,faJava,faJs, faReact, faVuejs, faNodeJs, faDocker, faGit, faJira, faMicrosoft,
   faCode, faLayerGroup, faGripHorizontal, faChartBar, faChartPie, faServer, faGlobe, faDatabase, faUsersRays,
   faTerminal, faArrowLeft,  faEnvelope,
   faPhone,

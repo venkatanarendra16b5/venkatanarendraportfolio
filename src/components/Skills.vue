@@ -21,10 +21,10 @@ import { gsap } from 'gsap'
 const skills = [
   { name: "Javascript", icon: ['fab', 'js'] },
   { name: "Typescript", icon: ['fas', 'code'] }, // Example, you might find a better one
-  {name:"Java", icon: ['fas', 'java']},
+  {name:"Java", icon: ['fab', 'java']},
   { name: "Vue.js", icon: ['fab', 'vuejs'] },
   { name: "React.js", icon: ['fab', 'react'] },
-  {name: "Angular", icon:['fas','angular']},
+  {name: "Angular", icon:['fab','angular']},
   { name: "Docker", icon: ['fab', 'docker'] },
   { name: "Git", icon: ['fab', 'git'] },
   { name: "Jira", icon: ['fab', 'jira'] },
