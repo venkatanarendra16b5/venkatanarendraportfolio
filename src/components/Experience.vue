@@ -9,11 +9,11 @@
         <p class="dates">Nov 2021 – Present</p>
         <p class="location">Hyderabad, India</p> <!-- Optional: Add location for context -->
         <p class="tech-stack">
-          <span class="tech-label">Technologies:</span> Vue.js, Quasar, Node.js, Express.js, MySQL, Azure DevOps, Redis, Pinia, Vuex, React.js, Socket.io, Vite, Redux
+          <span class="tech-label">Technologies:</span> Vue.js,React.js, Angular, Quasar, Node.js, Express.js, MySQL, Azure DevOps, Redis, Pinia, Vuex, Redux, ngrx, Socket.io, Vite
         </p>
         <ul class="contributions-list">
           <li>
-            <span class="tech-label">Full-Stack Development & Microservices:</span> Engineered and deployed dynamic web applications and scalable microservices, specializing in <span class="skill-label">Node.js/Express.js</span> for robust backend logic and <span class="skill-label">Vue.js/React.js/TypeScript</span> for interactive front-end interfaces. Integrated with over 30 tools (Jira, GitLab, Bitbucket, ADO, SonarQube) for streamlined data collection.
+            <span class="tech-label">Full-Stack Development & Microservices:</span> Engineered and deployed dynamic web applications and scalable microservices, specializing in <span class="skill-label">Node.js/Express.js</span> for robust backend logic and <span class="skill-label">Vue.js/React.js/Angular/TypeScript</span> for interactive front-end interfaces. Integrated with over 30 tools (Jira, GitLab, Bitbucket, ADO, SonarQube) for streamlined data collection.
           </li>
           <li>
             <span class="tech-label">Performance Optimization:</span> Significantly optimized application performance, including a <span class="skill-label">30% reduction in build times</span> with Vite, implementing <span class="skill-label">API response caching with Redis</span>, and enhancing overall productivity.
@@ -28,7 +28,7 @@
             <span class="tech-label">Cloud & Real-time Communication:</span> Implemented AWS S3 for secure file storage and integrated <span class="skill-label">Socket.io</span> for real-time, bidirectional communication in various applications.
           </li>
           <li>
-            <span class="tech-label">UI/UX & State Management:</span> Crafted responsive user interfaces, employing modern <span class="skill-label">React.js (hooks)</span> and <span class="skill-label">Vue.js</span> features, and managing application state effectively with <span class="skill-label">Pinia, Vuex, and Redux</span>. Implemented SEO and SSR for improved visibility.
+            <span class="tech-label">UI/UX & State Management:</span> Crafted responsive and high-performance user interfaces using modern frameworks including <span class="skill-label">React.js (hooks), Vue.js</span> and <span class="skill-label">Angular</span> leveraging advanced features and best practices. Implemented efficient state management using <span class="skill-label">Pinia, Vuex,Redux and NgRx,</span> and enhanced application visibility and performance through SEO optimization and Server-Side Rendering (SSR).
           </li>
           <li>
             <span class="tech-label">Project & Product Lifecycle Management:</span> Managed full project lifecycles, from architecture design and requirement gathering to deployment and support. Actively participated in code reviews, developed mitigation strategies, and collaborated with stakeholders.
