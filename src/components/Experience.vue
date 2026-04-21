@@ -9,11 +9,11 @@
         <p class="dates">Nov 2021 – Present</p>
         <p class="location">Hyderabad, India</p> <!-- Optional: Add location for context -->
         <p class="tech-stack">
-          <span class="tech-label">Technologies:</span> Vue.js,React.js, Angular, Quasar, Node.js, Express.js, MySQL, Azure DevOps, Redis, Pinia, Vuex, Redux, ngrx, Socket.io, Vite
+          <span class="tech-label">Technologies:</span> Vue.js, React.js, Angular, Quasar, Node.js, Express.js, MySQL, Azure DevOps, Redis, Pinia, Vuex, Redux, ngrx, Socket.io, Vite
         </p>
         <ul class="contributions-list">
           <li>
-            <span class="tech-label">Full-Stack Development & Microservices:</span> Engineered and deployed dynamic web applications and scalable microservices, specializing in <span class="skill-label">Node.js/Express.js</span> for robust backend logic and <span class="skill-label">Vue.js/React.js/Angular/TypeScript</span> for interactive front-end interfaces. Integrated with over 30 tools (Jira, GitLab, Bitbucket, ADO, SonarQube) for streamlined data collection.
+            <span class="tech-label">Full-Stack Development & Microservices:</span> Engineered and deployed dynamic web applications and scalable microservices, specializing in <span class="skill-label">Node.js/Express.js</span> for robust backend logic and <span class="skill-label">Vue.js/React.js/Angular</span> for interactive front-end interfaces. Integrated with over 30 tools (Jira, GitLab, Bitbucket, ADO, SonarQube) for streamlined data collection.
           </li>
           <li>
             <span class="tech-label">Performance Optimization:</span> Significantly optimized application performance, including a <span class="skill-label">30% reduction in build times</span> with Vite, implementing <span class="skill-label">API response caching with Redis</span>, and enhancing overall productivity.
