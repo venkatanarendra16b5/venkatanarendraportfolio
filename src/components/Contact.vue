@@ -109,7 +109,7 @@ const form = ref({
 const viewAndDownloadResume = () => {
   // ✅ Use import.meta.env to access environment variables in Vite
   const baseUrl = import.meta.env.VITE_BASE_URL || '/';
-  const resumeUrl = `${baseUrl}resume.pdf`;
+  const resumeUrl = `${baseUrl}resumeFile.pdf`;
 
   // 1️⃣ Open the resume in a new tab
   window.open(resumeUrl, '_blank');
