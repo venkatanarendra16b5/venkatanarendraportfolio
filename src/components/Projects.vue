@@ -35,6 +35,40 @@ const showProjectInfo = ref(false);
 const selectedProjectId = ref(null);
 const projects = [
   {
+    id: 'mll-wms',
+    title: 'Warehouse Management System (WMS)',
+    tagline: 'Enterprise Warehouse & Supply Chain Management Platform',
+    client: 'Mahindra Logistics Limited (MLL)',
+    environment: [
+      'React.js',
+      'Angular',
+      'Node.js',
+      'Express.js',
+      'TypeScript',
+      'JavaScript',
+      'MySQL',
+      'REST APIs',
+      'Git'
+    ],
+  
+    description: `Working as a Full Stack Developer on multiple Warehouse Management System (WMS) products used by enterprise warehouses to streamline inventory, warehouse operations, and order fulfillment. Responsible for developing scalable frontend applications, backend services, and business workflows supporting end-to-end warehouse and logistics operations.`,
+  
+    contributions: [
+      "Developed responsive enterprise applications using React.js and Angular for warehouse operators, supervisors, and administrators.",
+      "Designed and implemented scalable RESTful APIs using Node.js and Express.js for warehouse execution and inventory management.",
+      "Developed business modules supporting Inbound, Outbound, Inventory Management, Order Fulfillment, and Warehouse Execution processes.",
+      "Implemented warehouse workflows including Receiving, Quality Inspection (IQC), Putaway, Replenishment, Picking, Packing, Shipping, and Dispatch.",
+      "Worked on inventory control features such as Cycle Count, Stock Transfer, Inventory Adjustments, Barcode & HHT (Handheld Terminal) based warehouse operations.",
+      "Optimized MySQL queries and backend services to improve application performance for high-volume warehouse transactions.",
+      "Resolved production issues, performed root cause analysis, and delivered feature enhancements across multiple WMS products.",
+      "Collaborated with Product Owners, Business Analysts, QA teams, and cross-functional stakeholders using Agile methodologies.",
+      "Participated in API design, code reviews, deployment activities, testing, and continuous application improvements.",
+      "Contributed to warehouse processes including Order Allocation, Task Management, Shipment Processing, Dock Operations, and Inventory Visibility."
+    ],
+  
+    cardIcon: ['fas', 'warehouse']
+  },
+  {
     id:'ikunnect',
     title:'iKunnect',
     tagline:'Smart Contact Center Platform for Real-Time Communication & Analytics',
