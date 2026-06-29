@@ -6,7 +6,7 @@
       <!-- Experience Entry 1: Software Engineer at Qentelli Solutions -->
       <div class="experience-card">
         <h3>Software Engineer <span class="company"> – Qentelli Solutions Pvt Ltd</span></h3>
-        <p class="dates">Nov 2021 – Present</p>
+        <p class="dates">Nov 2021 – May 2026</p>
         <p class="location">Hyderabad, India</p> <!-- Optional: Add location for context -->
         <p class="tech-stack">
           <span class="tech-label">Technologies:</span> Vue.js, React.js, Angular, Quasar, Node.js, Express.js, MySQL, Azure DevOps, Redis, Pinia, Vuex, Redux, ngrx, Socket.io, Vite
@@ -45,7 +45,7 @@
         
           <p class="tech-stack">
             <span class="tech-label">Technologies:</span>
-            React.js, Angular, Node.js, Express.js, TypeScript, JavaScript, MySQL, REST APIs, Git
+            React.js, Angular, Node.js, Express.js, Redux, Ngrx, Redis, TypeScript, JavaScript, MySQL, REST APIs, Git
           </p>
         
           <ul class="contributions-list">
