@@ -37,6 +37,61 @@
         <!-- You can also add a "Highlights" section here if you want to pull out specific achievements -->
       </div>
 
+      <!-- Experience Entry 2: Manager - Full Stack Developer at MLL -->
+      <div class="experience-card">
+          <h3>Manager – Full Stack Developer <span class="company"> – Mahindra Logistics Limited (MLL)</span></h3>
+          <p class="dates">Jun 2026 – Present</p>
+          <p class="location">Hyderabad, India</p>
+        
+          <p class="tech-stack">
+            <span class="tech-label">Technologies:</span>
+            React.js, Angular, Node.js, Express.js, TypeScript, JavaScript, MySQL, REST APIs, Git
+          </p>
+        
+          <ul class="contributions-list">
+            <li>
+              <span class="tech-label">Warehouse Management System (WMS):</span>
+              Working as a <span class="skill-label">Full Stack Developer</span> on multiple enterprise Warehouse Management System (WMS) products, delivering scalable solutions for logistics and supply chain operations.
+            </li>
+        
+            <li>
+              <span class="tech-label">Frontend Development:</span>
+              Built responsive and high-performance user interfaces using
+              <span class="skill-label">React.js</span> and
+              <span class="skill-label">Angular</span>, providing seamless user experiences for warehouse users.
+            </li>
+        
+            <li>
+              <span class="tech-label">Backend Development:</span>
+              Developed and maintained RESTful APIs and business services using
+              <span class="skill-label">Node.js</span> and
+              <span class="skill-label">Express.js</span> to support warehouse operations.
+            </li>
+        
+            <li>
+              <span class="tech-label">Business Modules:</span>
+              Contributed to core warehouse processes including
+              <span class="skill-label">Inbound</span>,
+              <span class="skill-label">Outbound</span>,
+              <span class="skill-label">Inventory Management</span>,
+              <span class="skill-label">Picking</span>,
+              <span class="skill-label">Packing</span>,
+              <span class="skill-label">Shipping</span>, and
+              <span class="skill-label">Cycle Count</span>.
+            </li>
+        
+            <li>
+              <span class="tech-label">Collaboration & Delivery:</span>
+              Worked closely with product owners, business analysts, QA teams, and cross-functional stakeholders in an Agile environment to deliver high-quality features and production enhancements.
+            </li>
+        
+            <li>
+              <span class="tech-label">Issue Resolution & Optimization:</span>
+              Investigated production issues, optimized SQL queries and APIs, and implemented performance improvements to support high-volume warehouse transactions.
+            </li>
+          </ul>
+        </div>
+
       <!-- You can add more experience entries if you have previous significant roles that are relevant -->
       <!-- Example structure for a past role -->
       <!--
