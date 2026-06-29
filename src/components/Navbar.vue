@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="nav-inner">
       <div class="brand">
-        <a href="/">Narendra Portfolio<span class="accent">.</span></a>
+        <a href="/venkatanarendraportfolio">Narendra Portfolio<span class="accent">.</span></a>
       </div>
       <ul class="nav-links">
         <li v-for="link in navLinks" :key="link.id">
