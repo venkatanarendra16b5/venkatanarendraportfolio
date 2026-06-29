@@ -56,6 +56,7 @@ faEnvelope,
   faMessage, // Corrected from fa-comment or fa-comments
   faLaptopCode,     // Another option for general dev
   faShieldAlt,
+  fawarehouse,
   faChartLine,
   faCubes,
   faUserShield,
@@ -83,7 +84,8 @@ library.add(
   faCubes,
   faUserShield,
   faLightbulb,
-  faHeadset
+  faHeadset,
+  fawarehouse
 );
 
 /* -------------------------------------------------------------------------- */
